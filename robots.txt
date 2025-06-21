@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chi-1020-eatyourbreakfast.netlify.app/sitemap.xml

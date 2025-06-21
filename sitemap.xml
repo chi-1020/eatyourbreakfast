@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://chi-1020-eatyourbreakfast.netlify.app/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://chi-1020-eatyourbreakfast.netlify.app/blog-breakfast.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://chi-1020-eatyourbreakfast.netlify.app/blog-emotion.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://chi-1020-eatyourbreakfast.netlify.app/blog-truth.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
