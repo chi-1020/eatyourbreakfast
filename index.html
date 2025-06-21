@@ -4,19 +4,123 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>吃你的早餐｜eatyourbreakfast</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #fefaf3;
+      color: #2b2b2b;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #294f7d;
+      color: #ffffff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+    nav {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #294f7d;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: #294f7d;
+      border-bottom: 2px solid #e6b8b7;
+      padding-bottom: 0.25rem;
+    }
+    .post {
+      display: flex;
+      gap: 1.5rem;
+      background-color: #fff;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    .post img {
+      width: 180px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .post-content h3 {
+      margin-top: 0;
+      color: #294f7d;
+    }
+    .post-content p {
+      margin: 0.5rem 0 0 0;
+      font-size: 0.95rem;
+    }
+    .post-content a {
+      color: #b94d45;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      .post {
+        flex-direction: column;
+        align-items: center;
+      }
+      .post img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>吃你的早餐｜eatyourbreakfast</h1>
-  <p>這裡記錄創業的日常與情緒，歡迎來到我的寫作角落。</p>
-  <nav>
-    <a href="about.html">關於我</a>
-  </nav>
+  <header>
+    <h1>吃你的早餐｜eatyourbreakfast</h1>
+    <p>這裡記錄創業的日常與情緒，歡迎來到我的寫作角落。</p>
+    <nav>
+      <a href="about.html">關於我</a>
+      <a href="/admin/">後台管理</a>
+    </nav>
+  </header>
+  <main>
+    <h2>最新文章</h2>
 
-  <h2>最新文章</h2>
-  <ul>
-    <li><a href="blog-breakfast.html">早餐店的蝦事</a></li>
-    <li><a href="blog-emotion.html">情緒解藥</a></li>
-    <li><a href="blog-truth.html">創業沒人教你的事</a></li>
-  </ul>
+    <div class="post">
+      <img src="https://source.unsplash.com/featured/?breakfast" alt="早餐圖片">
+      <div class="post-content">
+        <h3><a href="blog-breakfast.html">早餐店的蝦事</a></h3>
+        <p>里肌蛋餅、蛋捲、奧客…那些只有早餐人才懂的故事。</p>
+      </div>
+    </div>
+
+    <div class="post">
+      <img src="https://source.unsplash.com/featured/?emotion" alt="情緒圖片">
+      <div class="post-content">
+        <h3><a href="blog-emotion.html">情緒解藥</a></h3>
+        <p>創業撐不下去時，我如何靠認識情緒繼續往前走。</p>
+      </div>
+    </div>
+
+    <div class="post">
+      <img src="https://source.unsplash.com/featured/?entrepreneur" alt="創業圖片">
+      <div class="post-content">
+        <h3><a href="blog-truth.html">創業沒人教你的事</a></h3>
+        <p>當頂讓、採購與招募通通砸下來時，我學會的真實生存課。</p>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
